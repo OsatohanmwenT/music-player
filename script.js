@@ -86,7 +86,7 @@ song.addEventListener("ended", () => {
     mainControl.src = "assets/Play_fill.svg"
 })
 
-setInterval(() => {currentTimeDisplay()},1000)
+setInterval(() => {currentTimeDisplay()},500)
 
 const reset = () => {
     currentTime.textContent = "0:00"
